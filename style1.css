@@ -1,0 +1,174 @@
+.white_rectangular_background {
+  opacity: 0;
+  background-color: white; }
+
+@media print {
+  .container {
+    width: auto; } }
+@media (max-width: 991px) {
+  .p90 {
+    width: 100%; }
+
+  .pic_aligment {
+    text-align: left; }
+
+  .body_text_aligment {
+    text-align: right; }
+
+  .head_text_aligment {
+    text-align: right; }
+
+  .media_inline {
+    display: inline; }
+
+  .media_inline_big {
+    display: none; } }
+@media (min-width: 992px) {
+  .p90 {
+    width: 90%; }
+
+  .pic_aligment {
+    text-align: center; }
+
+  .body_text_aligment {
+    text-align: left; }
+
+  .head_text_aligment {
+    text-align: center; }
+
+  .media_inline_small {
+    display: none; } }
+.for_hover:hover .image_fade {
+  opacity: 0.3; }
+.for_hover:hover .text_in_card {
+  opacity: 1; }
+.for_hover:hover .title_in_card {
+  opacity: 1; }
+.for_hover:hover .image_front_page_card {
+  opacity: 0.3; }
+
+.name_1::before {
+  content: "Lapeyra Works"; }
+
+.profession_1::before {
+  content: "Photography"; }
+
+.location_1::before {
+  content: "Madrid, Spain"; }
+
+.email_1::before {
+  content: "carlos.gabilondo@outlook.com"; }
+
+.name_2::before {
+  content: "CG PHOTOGRAPHY"; }
+
+.profession_2::before {
+  content: "Photography"; }
+
+.location_2::before {
+  content: "Madrid, Spain"; }
+
+.email_2::before {
+  content: "carlos.gabilondo@outlook.com"; }
+
+.name_3::before {
+  content: "STUDIO 59s"; }
+
+.profession_3::before {
+  content: "Architect"; }
+
+.location_3::before {
+  content: "Madrid, Spain"; }
+
+.email_3::before {
+  content: "carlos.gabilondo@outlook.com"; }
+
+.name_4::before {
+  content: "Perfect Eye"; }
+
+.profession_4::before {
+  content: "Graphic Designer"; }
+
+.location_4::before {
+  content: "Madrid, Spain"; }
+
+.email_4::before {
+  content: "carlos.gabilondo@outlook.com"; }
+
+.white_rectangular_background {
+  height: 200px; }
+
+.top_part {
+  font-size: 80px;
+  color: #e5e4e2;
+  font-weight: bold;
+  padding-top: 29px; }
+
+.submit_button {
+  font-size: 50px;
+  color: black;
+  font-weight: bold; }
+
+.black_background {
+  background-color: black;
+  height: 95px; }
+
+.black_background_bottom {
+  background-color: black;
+  height: 30px; }
+
+.navigation_options {
+  padding-top: 16px;
+  color: white; }
+
+.opacity {
+  opacity: 0.6; }
+
+.background {
+  background-image: url("files/_MG_2733.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.image_cover {
+  object-fit: cover;
+  height: 200px; }
+
+.image_fade {
+  transition: .5s ease;
+  backface-visibility: hidden; }
+
+.text_in_card {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); }
+
+.title_in_card {
+  transition: .5s ease;
+  opacity: 0.3;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  color: black; }
+
+.thumbnail_card {
+  width: 17px;
+  bottom: 5px;
+  left: 0px; }
+
+.image_front_page_card {
+  object-fit: cover;
+  height: 250px;
+  transition: .5s ease;
+  backface-visibility: hidden; }
+
+.light_grey {
+  color: #979b9b; }
+
+#grey {
+  background-color: backgroud_color; }
+
+/*# sourceMappingURL=style1.css.map */
