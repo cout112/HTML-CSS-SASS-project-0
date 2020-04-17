@@ -42,6 +42,22 @@ $hover_transp: 0.3;
     width: auto;
   }
 }
+@media (max-width: 700px) {
+	.top_part {
+	font-size: 60px;
+	padding-top: 46px;
+	color: #e5e4e2;
+	font-weight: bold;
+	}
+}
+@media (min-width:701px) {
+	.top_part {
+	font-size: 80px;
+	color: #e5e4e2;
+	font-weight: bold;
+	padding-top: 29px;
+	}
+}
 @media (max-width: 991px) {
 	.p90 {
 		width:100%;
@@ -146,12 +162,6 @@ $hover_transp: 0.3;
 .white_rectangular_background {
 	@extend %white_back;
 	height: 200px;
-}
-.top_part {
-	font-size: 80px;
-	color: #e5e4e2;
-	font-weight: bold;
-	padding-top: 29px;
 }
 .submit_button {
 	font-size: 50px;
