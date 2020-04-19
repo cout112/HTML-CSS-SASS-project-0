@@ -5,13 +5,13 @@
 }
 
 $name1: 'Lapeyra Works';
-$profession1: 'Photography';
+$profession1: 'Architectural photography';
 $location1: 'Madrid, Spain';
 $email1: 'carlos.gabilondo@outlook.com';
 
 
 $name2: 'CG PHOTOGRAPHY';
-$profession2: 'Photography';
+$profession2: 'Travel photography';
 $location2: 'Madrid, Spain';
 $email2: 'carlos.gabilondo@outlook.com';
 
@@ -33,14 +33,14 @@ $nav_: 95px;
 $footing: 30px;
 $light_grey_text: #979b9b;
 $hover_transp: 0.3;
-
+$profile_card_height: 150px;
 
 
 
 @media print {
   .container {
     width: auto;
-  }
+}
 }
 @media (max-width: 700px) {
 	.top_part {
@@ -190,10 +190,12 @@ $hover_transp: 0.3;
 
 }
 
-
+.margin_30 {
+	margin:30px;
+}
 .image_cover {
 	object-fit: cover;
-	height: 200px;
+	height: $profile_card_height;
 }
 .image_fade {
   	transition: .5s ease;
@@ -207,6 +209,7 @@ $hover_transp: 0.3;
   	left: 50%;
   	transform: translate(-50%, -50%);
  	-ms-transform: translate(-50%, -50%);
+ 	text-align:center;
 }
 
 .title_in_card {
@@ -231,8 +234,11 @@ $hover_transp: 0.3;
 .light_grey {
 	color: $light_grey_text;
 }
+.profile_card_height {
+	height: $profile_card_height;
+}
 #grey {
-	background-color:backgroud_color;
+	background-color: $backgroud_color;
 }
 
 

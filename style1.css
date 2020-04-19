@@ -63,7 +63,7 @@
   content: "Lapeyra Works"; }
 
 .profession_1::before {
-  content: "Photography"; }
+  content: "Architectural photography"; }
 
 .location_1::before {
   content: "Madrid, Spain"; }
@@ -75,7 +75,7 @@
   content: "CG PHOTOGRAPHY"; }
 
 .profession_2::before {
-  content: "Photography"; }
+  content: "Travel photography"; }
 
 .location_2::before {
   content: "Madrid, Spain"; }
@@ -135,9 +135,12 @@
   background-repeat: no-repeat;
   background-size: cover; }
 
+.margin_30 {
+  margin: 30px; }
+
 .image_cover {
   object-fit: cover;
-  height: 200px; }
+  height: 150px; }
 
 .image_fade {
   transition: .5s ease;
@@ -150,7 +153,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%); }
+  -ms-transform: translate(-50%, -50%);
+  text-align: center; }
 
 .title_in_card {
   transition: .5s ease;
@@ -174,7 +178,10 @@
 .light_grey {
   color: #979b9b; }
 
+.profile_card_height {
+  height: 150px; }
+
 #grey {
-  background-color: backgroud_color; }
+  background-color: #f2f3f3; }
 
 /*# sourceMappingURL=style1.css.map */
